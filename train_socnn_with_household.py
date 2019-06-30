@@ -29,22 +29,22 @@ output_data = []
 for i in range(len(X)-128):
     buff = []
     for j in range(len_time):
-        buff.append([X['Global_active_power'][i + j],
-                     X['Global_reactive_power'][i + j],
-                     X['Voltage'][i + j],
-                     X['Global_intensity'][i + j],
-                     X['Sub_metering_1'][i + j],
-                     X['Sub_metering_2'][i + j],
-                     X['Sub_metering_3'][i + j],
-                     X['time'][i + j]])
+        buff.append([X['Global_active_power'][i+j],
+                     X['Global_reactive_power'][i+j],
+                     X['Voltage'][i+j],
+                     X['Global_intensity'][i+j],
+                     X['Sub_metering_1'][i+j],
+                     X['Sub_metering_2'][i+j],
+                     X['Sub_metering_3'][i+j],
+                     X['time'][i+j]])
     input_data.append(buff)
-    output_data.append([X['Global_active_power'][i+ len_time],
-                  X['Global_reactive_power'][i + len_time],
-                  X['Voltage'][i + len_time],
-                  X['Global_intensity'][i + len_time],
-                  X['Sub_metering_1'][i + len_time],
-                  X['Sub_metering_2'][i + len_time],
-                  X['Sub_metering_3'][i + len_time]])
+    output_data.append([X['Global_active_power'][i+len_time],
+                  X['Global_reactive_power'][i+len_time],
+                  X['Voltage'][i+len_time],
+                  X['Global_intensity'][i+len_time],
+                  X['Sub_metering_1'][i+len_time],
+                  X['Sub_metering_2'][i+len_time],
+                  X['Sub_metering_3'][i+len_time]])
 
 input_data = np.array(input_data)
 output_data = np.array(output_data)
