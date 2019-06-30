@@ -1,7 +1,10 @@
 # SOCNN
 This is the unofficial code for [Autoregressive Convolutional Neural Networks for Asynchronous Time Series](https://arxiv.org/abs/1703.04122). 
 
-# Requirements
+You can build Significance-Offset Convolutional Neural Network (SOCNN) by 
+
+
+## Requirements
 You can get python packages.  
 `pip install -r requirements.txt`
 
