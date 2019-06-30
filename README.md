@@ -3,7 +3,7 @@ This is the unofficial code for [Autoregressive Convolutional Neural Networks fo
 
 # Requirements
 You can get python packages.
-‘pip install -r requirements.txt’
+'pip install -r requirements.txt'
 
 # household_power_consumption
 
