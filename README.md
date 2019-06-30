@@ -1,4 +1,4 @@
-#SOCNN
+# SOCNN
 This is the unofficial code for [Autoregressive Convolutional Neural Networks for Asynchronous Time Series](https://arxiv.org/abs/1703.04122). 
 
 # Requirements
