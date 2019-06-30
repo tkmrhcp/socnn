@@ -9,3 +9,5 @@ You can get python packages.
 You can use household_power_consumption datasets.  
 When you train and test the model,  
 `python train_socnn_with_household.py`
+household_power_consumption.txt in this repository is smaller than real datasets.  
+you can douwnload real datasets from <https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip>
