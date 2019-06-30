@@ -6,5 +6,5 @@ You can get python packages.
 `pip install -r requirements.txt`
 
 # household_power_consumption
-
+You can use household_power_consumption datasets. When you train and test the model,  
 `python train_socnn_with_household.py`
