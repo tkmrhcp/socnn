@@ -1,0 +1,9 @@
+num_layer_sig: 10
+num_layer_off: 1
+norm: 10
+clipnorm: 1.0 #0.01
+aux_weight: 0
+lr:  0.01
+output_length: 1
+nonnegative: True
+ks: 1
