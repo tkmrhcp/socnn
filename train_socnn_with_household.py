@@ -52,7 +52,7 @@ output_data = np.array(output_data)
 output_data = np.reshape(output_data, (-1, 1, dim-1))
 
 train_input_data, test_input_data, train_output_data, test_output_data = train_test_split(input_data, output_data,
-                                                                                          test_size=0.2, random_state=111)
+                                                                                          test_size=0.2, shuffle=False)
 #exclude time
 train_v_input = np.delete(train_input_data,dim-1 ,2)
 test_v_input = np.delete(test_input_data,dim-1 ,2)
